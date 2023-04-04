@@ -21,7 +21,7 @@ for(i of element){
 const contaires = document.getElementById('container')
 for(let i = 1; i < 6; i++){
     const divClass = document.createElement('div')
-    divClass.innerText = Element ${i}
+    divClass.innerText = `Element ${i}`
     divClass.className = 'elemnt'
     contaires.append(divClass);
 }
