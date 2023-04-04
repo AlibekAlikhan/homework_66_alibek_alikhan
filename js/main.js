@@ -22,10 +22,10 @@ const contaires = document.getElementById('container')
 for(let i = 1; i < 6; i++){
     const divClass = document.createElement('div')
     divClass.innerText = `Element ${i}`
-    divClass.className = 'elemnt'
+    divClass.className = 'element'
     contaires.append(divClass);
 }
-const elements = contaires.getElementsByClassName('elemnt')
+const elements = contaires.getElementsByClassName('element')
 for(i of elements){
     console.log(i)
 }
